@@ -24,7 +24,7 @@ In short:
 - Will be used widely in betting platforms within the Komodo Ecosystem
 - Will be the only currency supported in Komodo Platform’s Pangea Poker
 - Can be integrated into any other gaming system such as online casinos, betting, or incentivized gaming of any type
-- Proof of Work phase – transitioning to Proof of Stake
+- Proof of Work
 - 10 second block time
 - SHA-256 algorithm since CHIPS is almost a pure BTC fork.
 
