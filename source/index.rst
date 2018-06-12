@@ -10,8 +10,7 @@ CHIPS is a cryptocurrency in development. It will be used as cryptocurrency for 
 
 BET is a platform that will be the protocol for various betting games. CHIPS will be the fuel for these betting games; people can buy CHIPS on an exchange and use these CHIPS to place bets in any of the betting games that BET will offer.
 
-PANGEA poker is one of these games. PANGEA poker is a project that will revolutionize poker to be truly decentralized.
-
+PANGEA poker is one of these games. PANGEA poker is a project that will revolutionize poker to be truly decentralized. Find the `PANGEA whitepaper here`_.
 
 CHIPS will use the Lightning Network in order to settle transactions off-chain. This is useful in for example poker, where each bet is a mini-transaction from player to pot. It is unneccessary to record this transaction in a blockchain, but with the Lightning Network being able to record this in so-called payment channels, a lot of (probably unlimited) transactions between players and a poker pot can happen before the end result of one playing hand is recorded on the blockchain.
 
@@ -27,10 +26,15 @@ In short:
 - Proof of Work
 - 10 second block time
 - SHA-256 algorithm since CHIPS is almost a pure BTC fork.
+- Explorer: http://chips1.explorer.supernet.org/
+
 
 Since CHIPS uses a 10 second block time, more than 98% of the total CHIPS supply has already been mined. To prevent CHIPS from being vulnerable to attacks due to low hashing power, CHIPS will switch to delayed Proof of Work (dPoW) to ensure the security of the CHIPS chain.
 
 
+Poker forum where Decentralized Poker is discussed: https://forumserver.twoplustwo.com/29/news-views-gossip/decentralised-poker-future-1636827/index40.html 
+
+.. _PANGEA whitepaper here: https://cdn.discordapp.com/attachments/455737840668770315/456036359870611457/Unsolicited_PANGEA_WP.pdf
 
 .. toctree::
    :maxdepth: 2
