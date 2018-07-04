@@ -138,6 +138,8 @@ Where is the roadmap? Or white paper?
 At this point there’s no roadmap nor white paper as not deemed necessary as long CHIPS is still in the active development phase without any marketing focus.
 The closest thing to a whitepaper can be found here: https://supernet.org/en/resources/updates/chip-and-a-chair-let-s-use-bitcoin-s-lightning-network-to-create-a-poker-game
 
+And there is the `PANGEA whitepaper`_.
+
 Were there any announcements?
 -----------------------------
 
@@ -181,3 +183,4 @@ This FAQ has been written by @Teamcrypton. Addresses for Bounties or Tips:
 KMD: RYE7PmuhdggprJFiMBB24sJfVCkXWoSJnd
 Chips: RBPxBwTBUrGF2pWkyj9ETY1Bjhhvtrkb6s 
 
+.. _Pangea whitepaper: https://cdn.discordapp.com/attachments/455737840668770315/456036359870611457/Unsolicited_PANGEA_WP.pdf

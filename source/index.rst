@@ -49,6 +49,7 @@ Poker forum where Decentralized Poker is discussed: https://forumserver.twoplust
    :caption: Guides
 
    install-cli
+   install-ln
 
 Indices and tables
 ==================
