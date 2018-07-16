@@ -1,5 +1,5 @@
-Install Lightning Network client
-================================
+Install Lightning Network node
+==============================
 
 .. note::
   
