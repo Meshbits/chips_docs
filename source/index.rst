@@ -26,7 +26,7 @@ In short:
 - Proof of Work
 - 10 second block time
 - SHA-256 algorithm since CHIPS is almost a pure BTC fork.
-- Explorer: http://chips1.explorer.supernet.org/
+- Explorer: http://explorer.chips.cash/
 
 
 Since CHIPS uses a 10 second block time, more than 98% of the total CHIPS supply has already been mined. To prevent CHIPS from being vulnerable to attacks due to low hashing power, CHIPS will switch to delayed Proof of Work (dPoW) to ensure the security of the CHIPS chain.
