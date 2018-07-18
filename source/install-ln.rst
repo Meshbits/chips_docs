@@ -96,4 +96,4 @@ If funds have arrived, connect to a node and fund a channel to that node:
 
 This funds a channel to SLEEPYDRAGON, worth 0.002 CHIPS. This is just as an example; you can fund your channel with any amount you want.
 
-Now visit `the LN explorer <http://185.62.57.207:3456>`_ and see if your node alias pops up!
+Now visit `the LN explorer <https://lnexplorer.chips.cash>`_ and see if your node alias pops up!
