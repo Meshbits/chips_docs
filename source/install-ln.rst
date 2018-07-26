@@ -9,7 +9,7 @@ Clone the lightning repository:
 
 .. code-block:: shell
 
-   sudo apt-get update && sudo apt-get install -y autoconf git build-essential libtool libgmp-dev libsqlite3-dev python python3
+   sudo apt-get update && sudo apt-get install -y autoconf automake git build-essential libtool libgmp-dev libsqlite3-dev python python3
    git clone https://github.com/jl777/lightning
    cd lightning
    git checkout dev
