@@ -37,7 +37,7 @@ The following configuration settings need to be set:
    
    alias=<your unique alias name, visible on ln explorer>
    rgb=<RGB color of your node on the ln explorer>
-   addr=<your public ip address>
+   ipaddr=<your public ip address>
 
 Ctrl-x to exit, Y and then Enter to save and exit. 
 
