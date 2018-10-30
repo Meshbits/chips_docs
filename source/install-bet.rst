@@ -21,7 +21,7 @@ Nanomsg Next Generation (NNG) is needed:
    cmake -G Ninja ..
    ninja
    ninja test
-   ninja install
+   sudo ninja install
 
 Clone the BET repo:
 
