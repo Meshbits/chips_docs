@@ -67,6 +67,13 @@ Add the following:
 
 Ctrl-x to exit, Y and then Enter to save and exit.
 
+use chmod to make it executable:
+
+
+.. code-block:: shell
+
+   sudo chmod +x chipsln-rpc
+
 Let's see if it works
 
 .. code-block:: shell

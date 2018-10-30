@@ -51,6 +51,8 @@ Create a config file for CHIPS in ``~/.chips/chips.conf`` and enter the followin
    daemon=1
    addnode=5.9.253.195
    addnode=74.208.210.191
+   addnode=185.62.57.189
+   addnode=185.62.57.207
 
 Symlink the binaries for easy chips-cli access:
 
