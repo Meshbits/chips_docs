@@ -98,9 +98,9 @@ If funds have arrived, connect to a node and fund a channel to that node:
 
 .. code-block:: shell
 
-   chipsln-rpc connect 02851a6b619adb7f9c4876a3d90b68b0dc0caf7140b9fd3cf9bb8eb7060e03958f 185.62.57.25
-   chipsln-rpc fundchannel 02851a6b619adb7f9c4876a3d90b68b0dc0caf7140b9fd3cf9bb8eb7060e03958f 200000
+   chipsln-rpc connect 02d078bb347fe6f4f4409f985623689e976af1f5759938a2af0f09cf8c6ef2a36f 185.62.58.27
+   chipsln-rpc fundchannel 02d078bb347fe6f4f4409f985623689e976af1f5759938a2af0f09cf8c6ef2a36f 200000
 
-This funds a channel to CHIPSWHALE, worth 0.002 CHIPS. This is just as an example; you can fund your channel with any amount you want.
+This funds a channel to SOTIROD, worth 0.002 CHIPS. This is just as an example; you can fund your channel with any amount you want.
 
 Now visit `the LN explorer <https://lnexplorer.chips.cash>`_ and see if your node alias pops up! (might take a couple of minutes)
