@@ -11,8 +11,7 @@ Dependencies
    cd ~
    sudo apt-get update && sudo apt-get install software-properties-common autoconf automake git build-essential libtool libprotobuf-c-dev libgmp-dev libsqlite3-dev python python3 zip jq libevent-dev pkg-config libssl-dev libcurl4-gnutls-dev cmake libboost-all-dev -y
    git clone https://github.com/jl777/chips3.git
-   cd chips3/
-   git checkout dev
+   cd chips3
 
 Build Berkeley DB 4.8:
 
