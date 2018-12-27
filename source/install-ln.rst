@@ -12,7 +12,6 @@ Clone the lightning repository:
    sudo apt-get update && sudo apt-get install -y autoconf automake git build-essential libtool libgmp-dev libsqlite3-dev python python3
    git clone https://github.com/jl777/lightning
    cd lightning
-   git checkout dev
    
 Build and configure
 -------------------
@@ -94,13 +93,11 @@ Run the following command to check if your node has funds:
 
    chipsln-rpc listfunds
 
-If funds have arrived, connect to a node and fund a channel to that node:
+
+Optionally, using these two parameters, you can connect to a node visible on `the LN explorer <http://lnexplorer.chips.cash>`_
 
 .. code-block:: shell
 
-   chipsln-rpc connect 02d078bb347fe6f4f4409f985623689e976af1f5759938a2af0f09cf8c6ef2a36f 185.62.58.27
-   chipsln-rpc fundchannel 02d078bb347fe6f4f4409f985623689e976af1f5759938a2af0f09cf8c6ef2a36f 200000
+   chipsln-rpc connect 
+   chipsln-rpc fundchannel 
 
-This funds a channel to SOTIROD, worth 0.002 CHIPS. This is just as an example; you can fund your channel with any amount you want.
-
-Now visit `the LN explorer <http://185.62.58.27:3456>`_ and see if your node alias pops up! (might take a couple of minutes)
