@@ -20,7 +20,7 @@ Make lightning:
 
 .. code-block:: shell
 
-   make -j2
+   make
 
 Set a config file to make your node visible on the lightning explorer:
 
@@ -43,47 +43,56 @@ Ctrl-x to exit, Y and then Enter to save and exit.
 Running the lightning node
 --------------------------
 
-Start lightning and let it sync:
+`Lightning` will need a while to sync. Could be up to an hour or two. So its a good idea to run it in a tmux session. `Tmux cheatsheet <https://tmuxcheatsheet.com/>`_
+
+Create a `tmux` session
 
 .. code-block:: shell
 
-   cd ~/lightning
-   lightningd/lightningd --log-level=debug
+   tmux new -s lightning
+
+Then inside the tmux session you've just created
+
+.. code-block:: shell
+ 
+   ~/lightning/lightningd/lightningd --log-level=debug &
+
+CTRL + B, then D to detach from the tmux session.
 
 To make sending commands easier, make a script in /usr/bin:
 
 .. code-block:: shell
 
    cd /usr/bin/
-   sudo nano chipsln-rpc
+   sudo nano lightning-cli
 
 Add the following:
 
 .. code-block:: shell
    
    #!/bin/bash
-   ~/lightning/cli/lightning-cli $1 $2 $3 $4 $5 $6 | jq   
+   ~/lightning/cli/lightning-cli $1 $2 $3 $4 $5 $6 | jq .   
 
 Ctrl-x to exit, Y and then Enter to save and exit.
 
-use chmod to make it executable:
+Use chmod to make it executable:
 
 
 .. code-block:: shell
 
-   sudo chmod +x chipsln-rpc
+   sudo chmod +x lightning-cli
 
 Let's see if it works
 
 .. code-block:: shell
 
-   chipsln-rpc getinfo
+   lightning-cli getinfo
 
 If it returns your node's id, you're all set. Get a new address to fund your Lightning Node:
 
 .. code-block:: shell
 
-   chipsln-rpc newaddr
+   lightning-cli newaddr
 
 This returns an address, which needs to be funded first in order to open a channel with another node. Join the `CHIPS discord <https://discord.gg/bcSpzWb>`_ to get a small amount of CHIPS
 
@@ -91,13 +100,13 @@ Run the following command to check if your node has funds:
 
 .. code-block:: shell
 
-   chipsln-rpc listfunds
+   lightning-cli listfunds
 
 
 Optionally, using these two parameters, you can connect to a node visible on `the LN explorer <http://lnexplorer.chips.cash>`_
 
 .. code-block:: shell
 
-   chipsln-rpc connect 
-   chipsln-rpc fundchannel 
+   lightning-cli connect 
+   lightning-cli fundchannel 
 
