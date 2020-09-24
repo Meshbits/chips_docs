@@ -1,9 +1,8 @@
-
 ###
 BET
 ###
 
-The BET platform is the platform where deterministic betting games are hosted. Bets are placed using CHIPS.
+BET is a platform where deterministic betting games are hosted. Bets are placed using CHIPS.
 
 Bet is based on Pangea Protocol.
 
