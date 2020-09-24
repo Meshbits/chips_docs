@@ -47,8 +47,7 @@ As this is almost a pure BTC fork, the maximum supply is 21,000,000 coins. Just 
 Is there a block explorer for CHIPS?
 ------------------------------------
 
-- http://chips1.explorer.supernet.org 
-- http://chips3.explorer.supernet.org 
+- http://explorer.chips.cash 
 
 Are there any mining pools for CHIPS?
 -------------------------------------
